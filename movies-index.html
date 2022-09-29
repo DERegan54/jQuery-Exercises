@@ -20,23 +20,25 @@
                 Your Rating (0-10):
                 <input required type="number" min="0" max="10" placeholder="0" id="rating">
             </label>
-            <input id="addMov" type="button" value="Submit">
+            <button id="addBtn">Add Movie</button>
         </form>
     </div> 
     <br>  
     <table>
         <th>
-            <tr>
-                <td id="titleHead">Movie Title:
-                    <ul style="list-style: none" id="titleList"></ul>
-                </td>
-                <td id="ratingHead">Your Rating:
-                    <ul style="list-style: none" id="ratingList"></ul>
-                </td>
-                <td id="removeCol">Click to remove from list:
-                    <ul style="list-style: none" id="btnList"></ul>
-                </td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td class="heads">Movie Title:
+                        <ul style="list-style: none" id="titleList"></ul>
+                    </td>
+                    <td class="heads">Your Rating:
+                        <ul style="list-style: none" id="ratingList"></ul>
+                    </td>
+                    <td class="heads">Click to remove from list:
+                        <ul style="list-style: none" id="btnList"></ul>
+                    </td>
+                </tr>
+            </tbody>
         </th>        
     </table>
    
