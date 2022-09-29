@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    margin-left: 90px;
+    width: 1200px;
+    background-image: url("cinema-15-130 copy 4.png");
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifl
+}
+
+h1 {
+    margin-top: -20;
+    color: white;
+}
+
+td {
+    text-align: center;
+    width: 500px;
+}
+
+
